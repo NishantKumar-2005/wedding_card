@@ -30,11 +30,11 @@ export default function Scroll({ title, children, className = "" }) {
     ? { hidden: { opacity: 0 }, show: { opacity: 1, transition: { duration: 0.5 } } }
     : {
         hidden: { clipPath: "inset(0 0 100% 0)" },
-        show: { clipPath: "inset(0 0 0% 0)", transition: { duration: 1.2, ease: EASE, delayChildren: 0.8, staggerChildren: 0.12 } },
+        show: { clipPath: "inset(0 0 0% 0)", transition: { duration: 2.2, ease: EASE, delayChildren: 1.4, staggerChildren: 0.16 } },
       };
   const rollerV = {
     hidden: (hh) => ({ y: reduced ? 0 : -hh }),
-    show: { y: 0, transition: { duration: reduced ? 0 : 1.2, ease: EASE } },
+    show: { y: 0, transition: { duration: reduced ? 0 : 2.2, ease: EASE } },
   };
 
   return (

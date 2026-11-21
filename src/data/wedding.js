@@ -31,9 +31,19 @@ export const wedding = {
 
   // 3–6 frames; put photos in /public/photos. Missing photos show an illustrated placeholder.
   story: [
-    { type: "photo", src: "/photos/1.jpg", caption: "" },
+    { type: "photo", src: "/photos/couple-02.jpeg", caption: "" },
     { type: "text", text: "Some stories begin with grand gestures. Ours started with a simple conversation." },
-    { type: "photo", src: "/photos/2.jpg", caption: "" },
+    { type: "photo", src: "/photos/couple-03.jpeg", caption: "" },
+  ],
+
+  // Shown as an unrolling scroll of photos. Put images in /public/photos.
+  gallery: [
+    "/photos/couple-01.jpeg",
+    "/photos/couple-04.jpeg",
+    "/photos/couple-05.jpeg",
+    "/photos/couple-06.jpeg",
+    "/photos/couple-07.jpeg",
+    "/photos/couple-08.jpeg",
   ],
 
   notes: ["TODO: e.g. Parking available at the venue entrance."],

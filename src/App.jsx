@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import Family, { ListScroll } from "./components/Family";
 import DateReveal from "./components/DateReveal";
 import Story from "./components/Story";
+import Gallery from "./components/Gallery";
 import Events from "./components/Events";
 import Venue from "./components/Venue";
 import Finale from "./components/Finale";
@@ -76,6 +77,7 @@ export default function App() {
         <Family />
         <DateReveal />
         <Story />
+        <Gallery />
         <Events />
         <Venue />
         <ListScroll title="Things to Note" items={wedding.notes} />
